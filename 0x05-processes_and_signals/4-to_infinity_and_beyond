@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# This script
 
 while true; do
     echo "To infinity and beyond"
