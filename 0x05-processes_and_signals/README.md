@@ -1,7 +1,0 @@
-process and signals#!/usr/bin/env bash
-# This script
-file_name="4-to_infinity_and_beyond"
-pids=$(pgrep -f "$file_name")
-if [ -n "$pids" ]; then
-  kill "$pids"
-fi
