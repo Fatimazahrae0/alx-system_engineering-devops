@@ -1,17 +1,18 @@
 #!/usr/bin/env bash
-# displays Best School 10 times.
+#Write a Bash script that displays numbers from 1 to 20 and:
 
-COUNTER=1
-while [ $COUNTER -lt 11 ]
+index=1
+
+while ((index <= 10));
 do
-    if [ $COUNTER = 4 ]
+    if ((index==4));
     then
-        echo "bad luck"
-    elif [ $COUNTER = 8 ]
+	echo "bad luck"
+    elif ((index==8));
     then
-        echo "good luck"
+	echo "good luck"
     else
-        echo "Best School"
+	echo "Holberton School"
     fi
-    let COUNTER+=1
+    ((index++))
 done
