@@ -1,16 +1,11 @@
 #!/usr/bin/env bash
-#Write a Bash script that displays the time for 12 hours and 59 minutes:
-
-hours=0
-
-while((hours <= 12));
-do
-    echo $"Hour:" $hours
-    minutes=1
-    while ((minutes <= 59));
-    do
-	echo $minutes
-	((minutes++))
+# This script is displaying "Best School" 10 times
+hour=-1
+minute=1
+while ((hour++<12)); do
+    echo "Hour: $hour"
+    minute=0
+    while ((minute++<59)); do
+    echo $minute
     done
-    ((hours++))
 done

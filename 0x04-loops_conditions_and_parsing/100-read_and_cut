@@ -1,10 +1,6 @@
 #!/usr/bin/env bash
-#Write a Bash script that displays the content of the file /etc/passwd.
-
-
-FILENAME="/etc/passwd"
-
-while read -r files
-do
-    echo "$files" | cut -d ":" -f1,3,6
-done < $FILENAME
+# This script is displaying "Best School" 10 times
+file="/etc/passwd"
+while IFS= read -r line; do
+    cut -d: -f1,3,6 <<< "$line"
+done < "$file"

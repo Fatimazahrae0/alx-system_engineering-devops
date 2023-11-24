@@ -1,18 +1,14 @@
 #!/usr/bin/env bash
-#Fizzbuzz
-
-for ((i=1;i<=100;i++));
-do
-    if (( i%15==0 ));
-    then
-	echo "FizzBuzz"
-    elif (( i%3==0 ));
-       then
-       echo "Fizz"
-    elif (( i%5==0 ));
-       then
-       echo "Buzz"
-    else       
-	echo $i
+# This script is displaying "Best School" 10 times
+counter=0
+while ((counter++<100)); do
+    if (( counter % 3 == 0 && counter % 5 == 0 )); then
+        echo "FizzBuzz"
+    elif (( counter % 3 == 0 )); then
+        echo "Fizz"
+    elif (( counter % 5 == 0 )); then
+        echo "Buzz"
+    else
+        echo $counter
     fi
 done
