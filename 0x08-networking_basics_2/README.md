@@ -1,16 +1,14 @@
 # 0x08. Networking basics #1
 
-## Description
-This project covers:
+### Resource-you_tube
+* [How to Install and Configure DNS Server in Ubuntu](https://www.youtube.com/watch?v=FynQxz8eysY)
+* [How to configure a hostname and dns domain name on Linux Ubuntu Server](https://www.youtube.com/watch?v=VY7TOwS-1lI)
+* [How to modify a hosts file in linux system?](https://www.youtube.com/watch?v=Kl6Kwvc-EYs)
+* [/etc/hosts for Local Domains in Linux (To find IP address)](https://www.youtube.com/watch?v=vUDJ-CAhnrs)
+* [The Hosts File Explained](https://www.youtube.com/watch?v=a4S6FU5RdR0)
+* [Setting & renaming the Hostname of your Linux Workstation or Server](https://www.youtube.com/watch?v=91dNq4C6260)
 
-- [localhost/127.0.0.1](https://en.wikipedia.org/wiki/Localhost)
-- [What 0.0.0.0 is](https://en.wikipedia.org/wiki/0.0.0.0)
-- [Host file ```/etc/hosts```](https://www.makeuseof.com/tag/modify-manage-hosts-file-linux/)
-- [How to display your machine’s active network interfaces ```Netcat```](https://www.thegeekstuff.com/2012/04/nc-command-examples/)
-
-## Table of contents
-Files | Description
------ | -----------
-[0-change_your_home_IP](./0-change_your_home_IP) | Bash script that configures an Ubuntu server with the below requirements. ```localhost``` resolves to ```127.0.0.2``` ```facebook.com``` resolves to ```8.8.8.8```
-[1-show_attached_IPs](./1-show_attached_IPs) | Bash script that displays all active IPv4 IPs on the machine it’s executed on.
-[100-port_listening_on_localhost](./100-port_listening_on_localhost) | Bash script that listens on port ```98``` on ```localhost```
+### resource text
+* [CODE A PING SWEEP SCRIPT IN LINUX IN 5 MINUTES](https://nudesystems.com/code-a-ping-sweep-script-in-linux-in-5-minutes/)
+* [hostnamectl command in Linux](https://www.geeksforgeeks.org/hostnamectl-command-in-linux-with-examples/)
+* [solved problems & practice](https://practice.geeksforgeeks.org/explore?page=1&category[]=Linked%20List&sortBy=submissions&utm_source=gfg&utm_medium=search-bar&utm_campaign=practice-search)

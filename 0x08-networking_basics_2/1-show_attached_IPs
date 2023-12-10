@@ -1,3 +1,10 @@
 #!/usr/bin/env bash
-# displays all active IPv4 IPs on the machine it’s executed o
-ifconfig | grep -Eo "inet (addr:)?([0-9]*\.){3}[0-9]*" | awk '{print $2}'
+# Displays all acive IPv4 IPs on the machine it’s executed on.
+
+# ifconfig | awk -F "[: ]+" '/inet addr:/ { print $4 }'
+
+# OR
+# ifconfig | grep -Eo 'inet ([0-9]{1,3}\.?){4}' | cut -d ' ' -f 2
+
+# OR
+ifconfig -a | grep "inet addr" | cut -d " " -f12 | cut -d ":" -f2
